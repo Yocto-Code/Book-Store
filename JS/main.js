@@ -24,24 +24,6 @@ UpButton.onclick = () => {
 
 window.onscroll = () => {
 
-Books.forEach(Book => {
-    
-    if (window.scrollY >= Book.offsetTop - window.innerHeight / 5 && window.scrollY <= Book.offsetTop + window.innerHeight / 5) {
-    
-        Book.style.left = "-100%";
-
-        Book.style.opacity= "0";
-
-    } else {
-
-        Book.style.left = "0%";
-
-        Book.style.opacity= "1";
-
-    }
-
-})
-
 if (window.scrollY >= Height) {
 
     Nav.style.opacity = 0.8;
@@ -60,7 +42,7 @@ if (window.scrollY >= (Height)) {
 
     UpButton.style.opacity = 0.8;
     
-    UpButton.style.bottom = "2%";
+    UpButton.style.bottom = "1%";
 
 } else {
 

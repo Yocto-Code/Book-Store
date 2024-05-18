@@ -18,9 +18,9 @@
 
     :root {
 
-        --background-color: #434343;
+        --background-color: #131313;
     
-        --main-color:  #efafaf;
+        --main-color:  #00bb00;
 
         --book-width: 70%;
 
@@ -43,9 +43,9 @@
 
     :root {
 
-        --background-color: #434343;
+        --background-color: #131313;
     
-        --main-color:  rgb(239 175 175);
+        --main-color:  #00d100;
 
         --book-width: 35%;
 
@@ -67,9 +67,9 @@
 
     :root {
 
-        --background-color: #434343;
+        --background-color: #131313;
     
-        --main-color:  rgb(239 175 175);
+        --main-color:  #00d100;
 
         --book-width: 25%;
 
@@ -131,7 +131,7 @@ section {
 
     left: 0%;
 
-    background-color: #5e5e5e;;
+    background-color: #dddddd;;
 
     display: flex;
 
@@ -183,7 +183,7 @@ nav {
 
     bottom: -75px;
 
-    right: 2%;
+    right: 1%;
 
     z-index: 10;
 
@@ -265,11 +265,11 @@ nav {
 
 .Book {
 
-    box-shadow: 0px 5px 10px black;
+    box-shadow: 5px 5px 10px black;
 
     cursor: pointer;
 
-    transition-duration: 1s;
+    transition-duration: 0.45s;
 
     position: relative;
 
@@ -285,7 +285,7 @@ nav {
 
     height: var(--book-height);
 
-    background-color: #494b49;
+    background-color: #363636;
 
     border-radius: 10%;
 
@@ -333,7 +333,7 @@ nav {
 
     font-weight: bold;
 
-    color: rgb(0, 255, 128);
+    color: #00ff80;
 
     text-decoration: underline;
 
