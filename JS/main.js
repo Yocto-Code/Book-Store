@@ -56,7 +56,7 @@ if (window.scrollY >= Height) {
 
 }
 
-if (window.scrollY >= (Height * 2)) {
+if (window.scrollY >= (Height)) {
 
     UpButton.style.opacity = 0.8;
     
